@@ -47,7 +47,7 @@ class api {
      */
     public function createpage(string $name, string $description, array $additionaldata = []) {
         $response = $this->request(
-            $this->baseurl . 'sharedgeogebra/create',
+            $this->baseurl . 'geogebra/create',
                 [
                     'name' => $name,
                     'description' => $description,

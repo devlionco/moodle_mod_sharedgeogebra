@@ -35,9 +35,9 @@ $string['type'] = 'Shared Geogebra Type';
 $string['pluginadministration'] = 'sharedgeogebra Administration';
 
 $string['sharedgeogebra_token'] = 'Shared Geogebra Service Token';
-$string['sharedgeogebra_token_desc'] = 'Get token on site <a href="https://sharedgeogebra.com">sharedgeogebra</a>';
+$string['sharedgeogebra_token_desc'] = 'Get token on site <a href="https://devlion.co/contact/">sharedgeogebra</a>';
 $string['sharedgeogebra_url'] = 'Shared Geogebra Service Url';
-$string['sharedgeogebra_url_desc'] = 'Get url on site <a href="https://sharedgeogebra.com">sharedgeogebra</a>';
+$string['sharedgeogebra_url_desc'] = 'Get url on site <a href="https://devlion.co/contact/">sharedgeogebra</a>';
 
 $string['openpopup'] = 'Start Shared Geogebra';
 $string['newwindow'] = 'Start Shared Geogebra';

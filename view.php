@@ -36,7 +36,7 @@ if ($id) {
     $course = $DB->get_record('course', array('id' => $cm->course), '*', MUST_EXIST);
     $moduleinstance = $DB->get_record('sharedgeogebra', array('id' => $cm->instance), '*', MUST_EXIST);
 } else if ($m) {
-    $moduleinstance = $DB->get_record('sharedgeogebra', array('id' => $n), '*', MUST_EXIST);
+    $moduleinstance = $DB->get_record('sharedgeogebra', array('id' => $m), '*', MUST_EXIST);
     $course = $DB->get_record('course', array('id' => $moduleinstance->course), '*', MUST_EXIST);
     $cm = get_coursemodule_from_instance('sharedgeogebra', $moduleinstance->id, $course->id, false, MUST_EXIST);
 } else {

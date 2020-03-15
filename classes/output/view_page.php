@@ -90,7 +90,8 @@ class view_page implements renderable, templatable {
         }
 
         $url = $user['url'] . "&lang=" . current_language();
-        $sessionurl = $sharedgeogebra->getsessionurl($user['url_param'], $user['sharedgeogebra']['token']);
+
+        $sessionurl = $sharedgeogebra->getsessionurl($user['url_param'], $user['geogebra']['token']);
 
         $data->type = $this->moduleinstance->type;
         $data->url = $url;

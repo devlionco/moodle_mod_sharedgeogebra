@@ -35,9 +35,9 @@ $string['type'] = 'סוג';
 $string['pluginadministration'] = 'ניהול Shared Geogebra';
 
 $string['sharedgeogebra_token'] = 'אסימון לשירות Shared Geogebra';
-$string['sharedgeogebra_token_desc'] = 'לקבל גישות נא לגלוש באתר <a href="https://sharedgeogebra.com">sharedgeogebra</a>';
+$string['sharedgeogebra_token_desc'] = 'לקבל גישות נא לגלוש באתר <a href="https://devlion.co/contact/">sharedgeogebra</a>';
 $string['sharedgeogebra_url'] = 'קישור לשירות Shared Geogebra';
-$string['sharedgeogebra_url_desc'] = 'לקבל גישות נא לגלוש באתר<a href="https://sharedgeogebra.com">sharedgeogebra</a>';
+$string['sharedgeogebra_url_desc'] = 'לקבל גישות נא לגלוש באתר<a href="https://devlion.co/contact/">sharedgeogebra</a>';
 
 $string['openpopup'] = 'התחל';
 $string['newwindow'] = 'התחל';

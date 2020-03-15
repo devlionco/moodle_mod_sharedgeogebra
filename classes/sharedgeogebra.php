@@ -17,8 +17,8 @@
 /**
  * @package report
  * @subpackage sharedgeogebra
- * @copyright 2019 ofekpoint
- * @author Evgeniy Voevodin
+ * @copyright 2019 Devlion
+ * @author devlion.co
  * @license http://www.gnu.org/copyleft/gpl.html@package l GNU GPL v3 or later
  */
 

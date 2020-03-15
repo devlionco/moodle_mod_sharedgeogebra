@@ -1,4 +1,4 @@
-# Mind Maap Moodle plugin #
+# Shared Geogebra Moodle plugin #
 
 Version 3.6,3.7 release 1 - 2019.08.10
 
@@ -6,12 +6,11 @@ The "master" branch is no longer compatible with Moodle 3.6 or latter.
 
 Purpose
 -------
-![Shared Geogebra Moodle Settings](https://sharedgeogebra.com/wp-content/uploads/2019/10/sharedgeogebra_Devlion-2.png) 
 
 This plugin allow to teachers share: Courses, Activity/Resource, Topic/Module to other teachers.
 1. Teacher can add Shared Geogebra activity to his course.
 2. Students can view Shared Geogebra services.
-[view](https://sharedgeogebra.com)
+[view](https://devlion.co/contact/)
 
 
 Instalations
@@ -19,11 +18,11 @@ Instalations
 1.Validate that youre moodle instance has permission to acces to server app.sharedgeogebra.com via CURL
 
 2.Set token:
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImVtYWlsIjoiY2xpZW50MkBkZXZsaW9uLmNvIiwiZmlyc3RfbmFtZSI6IkNsaWVudDIiLCJsYXN0X25hbWUiOiJDbGllbnQifSwiaWF0IjoxNTcxMjk4Nzc4LCJleHAiOjMzMTI4MjI0Nzc4fQ.RqWY0fSjbSWHyTyP_OYDuK5vMNFOqvbdWqZDWhOnyuU
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImVtYWlsIjoiZGVtbzJAZGV2bGlvbi5jbyIsImZpcnN0X25hbWUiOiJEZW1vMiIsImxhc3RfbmFtZSI6IkRldmxpb24yIn0sImlhdCI6MTU4MjgxMDAwMywiZXhwIjozMzEzOTczNjAwM30.sLsXLilgrpQ1t5e9ot-DPN50I1YGlJeEDH4duReSKKU
 
 3. Set Service Url:
-https://app.sharedgeogebra.com/
-![Mind Maap Moodle Settings](https://blog.devlion.co/wp-content/uploads/image-17.png) 
+https://geogebra.learnapp.io/
+
 3. Add new activity 
 
 Instalations
