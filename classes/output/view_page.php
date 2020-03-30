@@ -73,6 +73,11 @@ class view_page implements renderable, templatable {
 
         $sharedgeogebra = new api($config->token, $config->url);
 
+        //Guest hack
+        if (empty($USER->lastname)) {
+            $USER->lastname = $USER->firstname;
+        }
+
         // Create sharedgeogebra.
         $user = $sharedgeogebra->registeruser(
             $USER->email,
