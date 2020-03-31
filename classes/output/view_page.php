@@ -78,6 +78,11 @@ class view_page implements renderable, templatable {
             $USER->lastname = $USER->firstname;
         }
 
+        if (isguestuser()) {
+            $USER->lastname = $USER->firstname;
+            $USER->email = "guest".$USER->id."@lms.com";
+        }
+
         // Create sharedgeogebra.
         $user = $sharedgeogebra->registeruser(
             $USER->email,
