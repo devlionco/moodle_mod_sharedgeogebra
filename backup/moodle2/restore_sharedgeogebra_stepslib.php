@@ -40,6 +40,7 @@ class restore_sharedgeogebra_activity_structure_step extends restore_activity_st
 
     /**
      * Process sharedgeogebra information
+     *
      * @param array $data information
      */
     protected function process_sharedgeogebra($data) {
@@ -48,12 +49,13 @@ class restore_sharedgeogebra_activity_structure_step extends restore_activity_st
         require_once($CFG->dirroot . '/mod/sharedgeogebra/lib.php');
 
         $record = (object) [
-            'course' => $this->get_courseid(),
-            'name' => $data['name'],
-            'intro' => $data['intro'],
-            'type' => $data['type'],
-            'introformat' => $data['introformat'],
-            'coursemodule' => $this->task->get_moduleid()
+                'course' => $this->get_courseid(),
+                'name' => $data['name'],
+                'intro' => $data['intro'],
+                'type' => $data['type'],
+                'introformat' => $data['introformat'],
+                'coursemodule' => $this->task->get_moduleid(),
+                'oldmoduleid' => $this->task->get_old_moduleid()
         ];
 
         $id = sharedgeogebra_add_instance($record);
