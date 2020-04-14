@@ -27,5 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->component = 'mod_sharedgeogebra';
 $plugin->release = '0.1.0';
 $plugin->version = 2019080816;
-$plugin->requires = 2018120300;
+$plugin->requires = 2017050500;
 $plugin->maturity = MATURITY_ALPHA;
